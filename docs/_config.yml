@@ -1,0 +1,6 @@
+name: Microsoft-Website
+title: "Microsoft Project Website"
+description: "A website that outlines the detailed specifics of our project"
+plugins:
+  - jemoji
+theme: jekyll-theme-midnight 
