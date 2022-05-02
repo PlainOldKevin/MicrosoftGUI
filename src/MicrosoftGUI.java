@@ -26,11 +26,11 @@ System.out.println("Welcome! this is a proto type ");
 
 public static void main(String[] args) {
 	System.out.println("hi");
-	
-	
-	
-	
-	
+
+
+
+
+
 }
 
 }
