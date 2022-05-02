@@ -1,5 +1,7 @@
+import javax.swing.JPanel;
+
 //import java.Color;
-/*
+
 import java.awt.Font;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
@@ -11,9 +13,9 @@ import java.util.ArrayList;
 import java.util.Random;
 
 import javax.swing.JPanel;
-*/
-module MicrosoftGUI
-	requires java.desktop;
+
+public class MicrosoftGUI
+	//requires java.desktop;
 extends JPanel
 {
 
@@ -22,6 +24,13 @@ public MicrosoftGUI(){
 System.out.println("Welcome! this is a proto type ");
 }
 
-
+public static void main(String[] args) {
+	System.out.println("hi");
+	
+	
+	
+	
+	
+}
 
 }
