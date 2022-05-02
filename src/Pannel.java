@@ -17,12 +17,37 @@ public class Pannel extends JPanel {
 	
 	
 	public Pannel() {
+		//this is where the QU logo is implemented
+		QULogo = new Sprites("./images/QULogo.png");
+		QULogo.getX();
+		QULogo.getY();
 		
+		//this sets the background
+		this.setBackground(Color.green);
+		
+	
+	
+	this.addKeyListener(new KeyAdapter() {
+		
+		@Override
+		public void keyPressed(KeyEvent e) {
+			
+		}
+		
+		@Override
+		public void keyReleased(KeyEvent e) {
+		
+			
 	}
+	
+	
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
 	}
 
+	});
+
+	}
 }

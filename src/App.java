@@ -16,6 +16,13 @@ public class App extends JFrame {
 		this.setLayout(new BorderLayout());
 		
 		Pannel drawingPanel = new Pannel();
+		this.add(drawingPanel, BorderLayout.CENTER);
+		 this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+	        
+	        this.add(new Pannel());
+	    
+	        this.setVisible(true);
+		
 		
 	}
 	
