@@ -9,6 +9,7 @@ import java.awt.event.KeyEvent;
 import java.util.ArrayList;
 
 import javax.swing.JPanel;
+import javax.swing.Timer;
 
 public class Pannel extends JPanel {
 
@@ -21,6 +22,10 @@ public class Pannel extends JPanel {
 		QULogo = new Sprites("./images/QULogo.png");
 		QULogo.getX();
 		QULogo.getY();
+		
+		MicrosoftLogo = new Sprites("./images/MicrosoftLogo.png");
+		MicrosoftLogo.getX();
+		MicrosoftLogo.getY();
 		
 		//this sets the background
 		this.setBackground(Color.green);
