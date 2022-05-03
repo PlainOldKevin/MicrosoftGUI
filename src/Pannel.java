@@ -35,11 +35,20 @@ public class Pannel extends JPanel {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				// TODO Auto-generated method stub
+				MicrosoftLogo.setHeight(5);
+				MicrosoftLogo.setWidth(5);
 				MicrosoftLogo.setLocation(100, 100);
-				QULogo.setLocation(200,200);
+				//QULogo.setLocation(200,200);
+				repaint();
 			}
 			
-		});
+		});}
+		@Override
+		protected void paintComponent(Graphics g) {
+			super.paintComponent(g);
+			Graphics2D brush = (Graphics2D) g;
+		//	QULogo.paint(brush);
+			MicrosoftLogo.paint(brush);
 		
 		
 		
@@ -55,12 +64,10 @@ public class Pannel extends JPanel {
 
 			}
 
-			public static void main(String[] args) {
-				// TODO Auto-generated method stub
-
-			}
+			
 
 		});
 
+		
 	}
 }
