@@ -35,7 +35,8 @@ public class Pannel extends JPanel {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				// TODO Auto-generated method stub
-				
+				MicrosoftLogo.setLocation(100, 100);
+				QULogo.setLocation(200,200);
 			}
 			
 		});
