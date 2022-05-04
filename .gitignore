@@ -7,3 +7,4 @@ bin/
 *.iml
 .DS_Store
 out/
+token.txt
