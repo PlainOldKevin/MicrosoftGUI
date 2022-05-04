@@ -48,6 +48,7 @@ public class Pannel extends JPanel {
 			super.paintComponent(g);
 			Graphics2D brush = (Graphics2D) g;
 		//	QULogo.paint(brush);
+			
 			MicrosoftLogo.paint(brush);
 		
 		
