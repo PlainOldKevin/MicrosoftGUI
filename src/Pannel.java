@@ -30,19 +30,14 @@ public class Pannel extends JPanel {
 
 		// this sets the background
 		this.setBackground(Color.green);
-		timer = new Timer(1, new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				// TODO Auto-generated method stub
-				MicrosoftLogo.setHeight(5);
-				MicrosoftLogo.setWidth(5);
-				MicrosoftLogo.setLocation(100, 100);
-				//QULogo.setLocation(200,200);
-				repaint();
-			}
-			
-		});}
+		// TODO Auto-generated method stub
+		MicrosoftLogo.setHeight(50);
+		MicrosoftLogo.setWidth(50);
+	
+		MicrosoftLogo.setLocation(100, 100);
+		//QULogo.setLocation(200,200);
+		repaint();
+	}
 		@Override
 		protected void paintComponent(Graphics g) {
 			super.paintComponent(g);
