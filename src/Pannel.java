@@ -7,7 +7,9 @@ import java.awt.event.ActionListener;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.util.ArrayList;
-
+import git.tools.client.GitSubprocessClient;
+import github.tools.client.GitHubApiClient;
+import github.tools.responseObjects.*;
 import javax.swing.JPanel;
 import javax.swing.Timer;
 
@@ -35,12 +37,7 @@ public class Pannel extends JPanel {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				// TODO Auto-generated method stub
-			/*	MicrosoftLogo.setHeight(40);
-			//	MicrosoftLogo.setWidth(40);
-			//	MicrosoftLogo.setLocation(0, 0);
-				//QULogo.setLocation(200,200);
-			//	repaint();
-			*/	
+			
 			}
 			
 		});}
@@ -52,7 +49,6 @@ public class Pannel extends JPanel {
 			MicrosoftLogo.setWidth(300);
 			MicrosoftLogo.setHeight(150);
 			MicrosoftLogo.setLocation(100, 25);
-			
 			MicrosoftLogo.paint(brush);
 			
 			QULogo.setWidth(250);
