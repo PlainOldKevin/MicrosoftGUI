@@ -6,4 +6,4 @@ This project is a prototype GUI-based application for Microsoft. This applicatio
 
 # Setup/Run Instructions
 
-"full setup and run instructions here"
+The user will need to have at least Java 8 installed on their computer, as well as an IDE to run the program. The graphical program "swing" is not needed to run the program.
