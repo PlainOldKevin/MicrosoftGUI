@@ -58,7 +58,9 @@ public class Pannel extends JPanel {
 			QULogo.setLocation(450, 25);
 			QULogo.paint(brush);
 		
-		
+			brush.setColor(Color.black);
+			brush.setFont(new Font("Times New Roman", Font.PLAIN, 24));
+			brush.drawString("This is a protype", 300, 300);
 		
 		this.addKeyListener(new KeyAdapter() {
 
