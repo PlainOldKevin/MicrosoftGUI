@@ -30,21 +30,37 @@ public class Pannel extends JPanel {
 
 		// this sets the background
 		this.setBackground(Color.green);
-		// TODO Auto-generated method stub
-		MicrosoftLogo.setHeight(50);
-		MicrosoftLogo.setWidth(50);
-	
-		MicrosoftLogo.setLocation(100, 100);
-		//QULogo.setLocation(200,200);
-		repaint();
-	}
+
+		timer = new Timer(1, new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+			/*	MicrosoftLogo.setHeight(40);
+			//	MicrosoftLogo.setWidth(40);
+			//	MicrosoftLogo.setLocation(0, 0);
+				//QULogo.setLocation(200,200);
+			//	repaint();
+			*/	
+			}
+			
+		});}
+
 		@Override
 		protected void paintComponent(Graphics g) {
 			super.paintComponent(g);
 			Graphics2D brush = (Graphics2D) g;
-		//	QULogo.paint(brush);
+			
+			MicrosoftLogo.setWidth(300);
+			MicrosoftLogo.setHeight(150);
+			MicrosoftLogo.setLocation(100, 25);
 			
 			MicrosoftLogo.paint(brush);
+			
+			QULogo.setWidth(250);
+			QULogo.setHeight(150);
+			QULogo.setLocation(450, 25);
+			QULogo.paint(brush);
 		
 		
 		
