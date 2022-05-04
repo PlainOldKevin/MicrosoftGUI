@@ -14,7 +14,7 @@ public class App extends JFrame {
 		
 		super("Microsoft Demo");
 		this.setLayout(new BorderLayout());
-		this.setSize(1000, 700);
+		this.setSize(500, 700);
 		Pannel drawingPanel = new Pannel();
 		this.add(drawingPanel, BorderLayout.CENTER);
 		 this.setDefaultCloseOperation(EXIT_ON_CLOSE);
