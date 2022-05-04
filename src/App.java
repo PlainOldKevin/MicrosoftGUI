@@ -4,7 +4,9 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
-
+import git.tools.client.GitSubprocessClient;
+import github.tools.client.GitHubApiClient;
+import github.tools.responseObjects.*;
 import javax.imageio.ImageIO;
 import javax.swing.JFrame;
 
@@ -17,7 +19,7 @@ public class App extends JFrame {
 		this.setSize(800, 700);
 		Pannel drawingPanel = new Pannel();
 		this.add(drawingPanel, BorderLayout.CENTER);
-		 this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 	        
 	        this.add(new Pannel());
 	    
