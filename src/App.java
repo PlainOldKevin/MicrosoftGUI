@@ -20,11 +20,11 @@ public class App extends JFrame {
 		Pannel drawingPanel = new Pannel();
 		this.add(drawingPanel, BorderLayout.CENTER);
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
-	        
-	        this.add(new Pannel());
+	    this.add(new Pannel());
+	    this.setVisible(true);
 	    
-	        this.setVisible(true);
-		
+	    
+	    //GitHandler gitHandler = new GitHandler(); 
 		
 	}
 	
