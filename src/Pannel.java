@@ -50,14 +50,14 @@ public class Pannel extends JPanel {
 			Graphics2D brush = (Graphics2D) g;
 			
 			MicrosoftLogo.setWidth(300);
-			MicrosoftLogo.setHeight(100);
-			MicrosoftLogo.setLocation(0, 0);
+			MicrosoftLogo.setHeight(150);
+			MicrosoftLogo.setLocation(100, 25);
 			
 			MicrosoftLogo.paint(brush);
 			
-			QULogo.setWidth(200);
-			QULogo.setHeight(100);
-			QULogo.setLocation(300, 0);
+			QULogo.setWidth(250);
+			QULogo.setHeight(150);
+			QULogo.setLocation(450, 25);
 			QULogo.paint(brush);
 		
 		
