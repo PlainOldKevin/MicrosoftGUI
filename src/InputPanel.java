@@ -82,9 +82,12 @@ public class InputPanel extends JPanel {
 			CreateFileResponse createReadMeFile = gitHubApiClient.createFile
 					(user, "NewRepo", repoPath, "README.md", "NewRepo", "created a readme");
 			
-			// commit
+			String gitInit = gitSubprocessClient.gitInit();
+			String gitRemoteAdd = gitSubprocessClient.gitRemoteAdd("origin", "https://github.com/" + user + "NewRepo.git");
+			String gitAddAll = gitSubprocessClient.gitAddAll();
 			String commitMessage = "This is a commit message";
 			String commit = gitSubprocessClient.gitCommit(commitMessage);
+			String push = gitSubprocessClient.gitPush("master");
 			
 		}
 		
