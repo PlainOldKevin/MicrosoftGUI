@@ -19,7 +19,6 @@ public class Pannel extends JPanel {
 	private Sprites MicrosoftLogo;
 
 	public Pannel() {
-		Timer timer;
 
 		// this is where the QU logo is implemented
 		QULogo = new Sprites("./images/QULogo.png");
@@ -32,16 +31,7 @@ public class Pannel extends JPanel {
 
 		// this sets the background
 		this.setBackground(Color.green);
-
-		timer = new Timer(1, new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				// TODO Auto-generated method stub
-			
-			}
-			
-		});}
+	}
 
 		@Override
 		protected void paintComponent(Graphics g) {

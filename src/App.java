@@ -14,18 +14,24 @@ public class App extends JFrame {
 
 	public App() {
 		
+		// main panel
 		super("Microsoft Demo");
 		this.setLayout(new BorderLayout());
 		this.setSize(800, 700);
 		Pannel drawingPanel = new Pannel();
 		this.add(drawingPanel, BorderLayout.CENTER);
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
-	    this.add(new Pannel());
-	    this.setVisible(true);
 	    
+	    // input panel
+	    InputPanel iPanel = new InputPanel();
+	    this.add(iPanel, BorderLayout.SOUTH);
 	    
 	    //GitHandler gitHandler = new GitHandler(); 
 		
+	    
+	  
+
+	    this.setVisible(true);
 	}
 	
 	
